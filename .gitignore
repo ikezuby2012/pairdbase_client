@@ -1,0 +1,180 @@
+# =========================================================
+# Dependencies
+# =========================================================
+
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.pnp/
+.pnp.js
+
+
+# =========================================================
+# Build output
+# =========================================================
+
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.turbo/
+
+# Vite
+.vite/
+
+# TanStack Start / Nitro
+.output/
+.vercel/
+.netlify/
+
+
+# =========================================================
+# Environment variables
+# =========================================================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep example environment files
+!.env.example
+!.env.sample
+
+
+# =========================================================
+# Logs
+# =========================================================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+logs/
+*.log.*
+
+
+# =========================================================
+# Testing / coverage
+# =========================================================
+
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+
+
+# =========================================================
+# TypeScript
+# =========================================================
+
+*.tsbuildinfo
+
+
+# =========================================================
+# IDE / Editors
+# =========================================================
+
+.idea/
+.vscode/
+
+# Keep shared VS Code settings if you want them committed
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+*.swp
+*.swo
+*~
+
+
+# =========================================================
+# OS
+# =========================================================
+
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+
+
+# =========================================================
+# Temporary files
+# =========================================================
+
+*.tmp
+*.temp
+*.bak
+*.cache
+
+tmp/
+temp/
+
+
+# =========================================================
+# React / frontend generated files
+# =========================================================
+
+.eslintcache
+.stylelintcache
+
+# Storybook
+storybook-static/
+
+
+# =========================================================
+# Package manager
+# =========================================================
+
+# Do NOT ignore pnpm-lock.yaml
+# It should be committed for reproducible installs.
+
+
+# =========================================================
+# Local development
+# =========================================================
+
+.local/
+.localhost/
+
+# Generated API/client files
+generated/
+
+
+# =========================================================
+# Certificates / local HTTPS
+# =========================================================
+
+*.pem
+*.key
+*.crt
+
+# Keep explicitly committed example certificates if any
+!certs/example/
+
+
+# =========================================================
+# Deployment
+# =========================================================
+
+.vercel/
+.netlify/
+
+# Cloudflare
+.wrangler/
+
+
+# =========================================================
+# Misc generated files
+# =========================================================
+
+*.orig
+*.rej
